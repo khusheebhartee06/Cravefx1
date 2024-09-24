@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .back{
+            background-image: url(./assests/img/1.png),url(./assests/img/2d-and-3d-animation-singapore.jpg),url(./assests/img/blog2.jpg),url(./assests/img/2d-and-3d-animation-singapore.jpg),url(./assests/img/blog2.jpg);
+        background-size: 20% 100%;
+        background-position:0% 0%, 25% 0%, 50% 0%, 75% 0%, 100% 0%;
+        background-repeat: no-repeat;
+        height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+
+    </div>
+</body>
+</html>

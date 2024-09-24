@@ -1,3 +1,13 @@
+// preloader
+var loader = document.getElementById('preloader')
+window.addEventListener('load', () => {
+  setTimeout('l()',1000)
+})
+function l() {
+  loader.style.display = "none"
+}
+// preloader
+
 const nav1 = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
@@ -11,7 +21,7 @@ window.addEventListener('scroll', () => {
 
 
 AOS.init();
-
+// swiper start
 new Swiper('.slider-wrapper', {
 
   loop: true,
@@ -51,3 +61,6 @@ new Swiper('.slider-wrapper', {
   }
 
 });
+// swiper end
+
+

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Home page</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
     ">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -15,11 +15,12 @@
 </head>
 
 <body>
+  <div id="preloader"></div>
   <!-- nav section start -->
   <section id="banner">
     <nav class="navbar navbar-expand-lg position-fixed top-0 start-0 end-0 z-3">
       <div class="container-lg">
-        <a class="navbar-brand" href="#" data-aos="fade-right" data-aos-duration="1500"><img
+        <a class="navbar-brand" href="index.html" data-aos="fade-right" data-aos-duration="1500"><img
             src="./assests/img/cravefx-logo.png" width="140px" alt=""></a>
         <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -31,19 +32,19 @@
               <a class="nav-link " href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="services.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link" href="work.html">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Media</a>
+              <a class="nav-link" href="media.html">Media</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Showreel</a>
+              <a class="nav-link" href="showreel.html">Showreel</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-5" href="#">Blog</a>
+              <a class="nav-link me-5" href="blog.html">Blog</a>
             </li>
             <li class="nav-item">
               <a class="btn bg-pink " data-aos="fade-left" data-aos-duration="1500" id="btn1" href="#">GET A QUOTE</a>
@@ -168,24 +169,25 @@
   </section>
   <!-- swiper section end -->
   <!-- CraveFX section start -->
-<section id="cravefx">
-  <div class="container-fluid text-white">
-    <div class="row ">
-      <div class="col-md-7 ps-0">
-        <img src="./assests/img/motion-graphics-company-singapore.png.webp" class="img-fluid">
-      </div>
-      <div class="col-md-5 px-5 py-4">
-        <div class="pe-4">
-          <h2 class="h2 pt-3">We are CraveFX</h2>
-        <p class="h4 fw-normal py-4 ">
-          We strive to be on the frontier of technology in Singapore through the use of the latest software and involvement in new media.
-        </p>
-        <button class="btn bg-blue" id="btn2">  OUR APpROACH</button>
+  <section id="cravefx">
+    <div class="container-fluid text-white">
+      <div class="row ">
+        <div class="col-md-7 ps-0">
+          <img src="./assests/img/motion-graphics-company-singapore.png.webp" class="img-fluid">
+        </div>
+        <div class="col-md-5 px-5 py-4">
+          <div class="pe-4">
+            <h2 class="h2 pt-3">We are CraveFX</h2>
+            <p class="h4 fw-normal py-4 ">
+              We strive to be on the frontier of technology in Singapore through the use of the latest software and
+              involvement in new media.
+            </p>
+            <button class="btn bg-blue" id="btn2"> OUR APpROACH</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
   <!-- CraveFX section end -->
   <!-- Latest_work section start -->
   <section id="latest">
@@ -237,32 +239,33 @@
       </div>
     </div>
   </section>
+  
   <!-- Latest_work section end -->
   <!-- multi_color section start -->
-   <div class="container pt-5 "id="multi_color">
+  <div class="container pt-5 " id="multi_color">
     <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 pt-4">
       <div class="col mb-3">
-       <div class="box bg-pink text-white mt-md-5">
-        <img src="./assests/img/multi1.png" alt="">
-        <h4>2D Animation</h4>
-        <p>Allow us to bring your brand to life with our unique 2D style.</p>
-       </div>
+        <div class="box bg-pink text-white mt-md-5">
+          <img src="./assests/img/multi1.png" alt="">
+          <h4>2D Animation</h4>
+          <p>Allow us to bring your brand to life with our unique 2D style.</p>
+        </div>
       </div>
 
       <div class="col  mb-3">
-      <div class="box bg-yellow text-pink">
-        <img src="./assests/img/multi2.png" alt="">
-        <h4>3D Animation</h4>
-        <p>Sometimes, you just need a heightened sense of visual realism to make an impression.</p>
-      
-      </div>
+        <div class="box bg-yellow text-pink">
+          <img src="./assests/img/multi2.png" alt="">
+          <h4>3D Animation</h4>
+          <p>Sometimes, you just need a heightened sense of visual realism to make an impression.</p>
+
+        </div>
       </div>
       <div class="col   mb-3">
         <div class="box bg-blue  text-white mb-md-4">
-          
-        <img src="./assests/img/multi1.png" alt="">
-        <h4>Motion Graphics Explainer Videos</h4>
-        <p>Powerpoint presentations just don’t cut it anymore.</p>
+
+          <img src="./assests/img/multi1.png" alt="">
+          <h4>Motion Graphics Explainer Videos</h4>
+          <p>Powerpoint presentations just don’t cut it anymore.</p>
         </div>
       </div>
       <div class="col   mb-3">
@@ -271,81 +274,86 @@
           <h4>Visual Effects</h4>
           <p>Blend the fantastic seamlessly with the real; at a fraction of the hassle and cost</p>
         </div>
-       </div>
+      </div>
       <div class="col   mb-3">
         <div class="box  bg-blue  text-white">
- <img src="./assests/img/multi1.png" alt="">
-        <h4>Visualisation</h4>
-        <p>Let us be your go-to creator and reify your concept papers, drawings and prototypes.</p>
-      
+          <img src="./assests/img/multi1.png" alt="">
+          <h4>Visualisation</h4>
+          <p>Let us be your go-to creator and reify your concept papers, drawings and prototypes.</p>
+
         </div>
-       </div>
-      <div class="col  mb-3">
-      <div class="box bg-pink  text-white">
-        <img src="./assests/img/multi1.png" alt="">
-        <h4>Broadcast Package</h4>
-        <p>Polish up your tv series or commercial – we create custom intros, lower thirds, supers and design your end frames.</p>
-      
-      </div> 
       </div>
-      
       <div class="col  mb-3">
-      <div class="box bg-yellow text-blue">
-        <img src="./assests/img/multi3.png" alt="">
-        <h4>Augmented Reality</h4>
-        <p>Enhance your audience’s user experience with our beautifully designed interactive elements.</p>
-      
-      </div> 
+        <div class="box bg-pink  text-white">
+          <img src="./assests/img/multi1.png" alt="">
+          <h4>Broadcast Package</h4>
+          <p>Polish up your tv series or commercial – we create custom intros, lower thirds, supers and design your end
+            frames.</p>
+
+        </div>
       </div>
-      
+
       <div class="col  mb-3">
-      <div class="box bg-blue  text-white mt-md-5">
-        <img src="./assests/img/multi1.png" alt="">
-        <h4>World-class Production</h4>
-        <p>Be it all things animated, large-scale production or even simulated stop-motion; we’ll help your ideas take wing.</p>
-      
-      </div> 
+        <div class="box bg-yellow text-blue">
+          <img src="./assests/img/multi3.png" alt="">
+          <h4>Augmented Reality</h4>
+          <p>Enhance your audience’s user experience with our beautifully designed interactive elements.</p>
+
+        </div>
+      </div>
+
+      <div class="col  mb-3">
+        <div class="box bg-blue  text-white mt-md-5">
+          <img src="./assests/img/multi1.png" alt="">
+          <h4>World-class Production</h4>
+          <p>Be it all things animated, large-scale production or even simulated stop-motion; we’ll help your ideas take
+            wing.</p>
+
+        </div>
       </div>
     </div>
-   </div>
-   <div style="background: url(./assests/img/core.png)  no-repeat scroll;background-size: 100%;height: 150px;background-position: center center;"></div>
+  </div>
+  <div
+    style="background: url(./assests/img/core.png)  no-repeat scroll;background-size: 100%;height: 150px;background-position: center center;">
+  </div>
   <!-- multi_color section end -->
   <!-- Our Highlights section start -->
-   <section id="highlights"class="bg-pink py-5">
+  <section id="highlights" class="bg-pink py-5">
     <div class="container ">
       <div class="row">
         <div class="col-12">
           <h2 class="text-white h2">Our Highlights</h2>
-          <button id="btn2" class="btn bg-blue my-4">FIND US ON INSTAGRAM <i class="fa-solid fa-arrow-right"></i></button>
+          <button id="btn2" class="btn bg-blue my-4">FIND US ON INSTAGRAM <i
+              class="fa-solid fa-arrow-right"></i></button>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6 mt-5">
-         <div class=" rounded-4" id="blog">
-          <img src="./assests/img/blog1.png.crdownload"width="100%" alt=""class="img-fluid rounded-4">
-          <div class="button">
-            <button class=" text-white fw-semibold" >Blog</button>
+          <div class=" rounded-4" id="blog">
+            <img src="./assests/img/blog1.png.crdownload" width="100%" alt="" class="img-fluid rounded-4">
+            <div class="button">
+              <button class=" text-white fw-semibold">Blog</button>
+            </div>
+            <div class="content">
+              <H5 class="fw-bold">Animation vs Live Action: Which Is Best For Your Business?</H5>
+              <P class="fw-semibold">
+                Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live… </P>
+            </div>
           </div>
-          <div class="content">
-            <H5 class="fw-bold">Animation vs Live Action: Which Is Best For Your Business?</H5>
-            <P class="fw-semibold">
-              Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live…              </P>
-          </div>
-         </div>
         </div>
         <div class="col-lg-6  mt-5">
           <div id="blog" class="rounded-4">
-            <img src="./assests/img/blog2.jpg"width="100%" alt=""class="img-fluid rounded-4">
-          <div class="button">
-            <button class=" text-white fw-semibold" >Blog</button>
+            <img src="./assests/img/blog2.jpg" width="100%" alt="" class="img-fluid rounded-4">
+            <div class="button">
+              <button class=" text-white fw-semibold">Blog</button>
+            </div>
+            <div class="content">
+              <H5 class="fw-bold">Animation vs Live Action: Which Is Best For Your Business?</H5>
+              <P class="fw-semibold">
+                Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live… </P>
+            </div>
           </div>
-          <div class="content">
-            <H5 class="fw-bold">Animation vs Live Action: Which Is Best For Your Business?</H5>
-            <P class="fw-semibold">
-              Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live…              </P>
-          </div>
-          </div>
-          
+
         </div>
       </div>
       <div class="row pt-5 text-center">
@@ -354,10 +362,10 @@
         </div>
       </div>
     </div>
-   </section>
+  </section>
   <!-- Our Highlights section end -->
   <!-- Collaborate section start -->
-   <section id="collaborate">
+  <section id="collaborate">
     <div class="container">
       <div class="row text-center">
         <div class="col-12 py-5">
@@ -365,35 +373,64 @@
             Ready to Collaborate?
           </h2>
           <p class="h4 py-4 fw-normal ">
-            As one of the best animation companies in Singapore, our studio offers all kinds of professional services, such as motion graphics, 2D and 3D animation, visual effects (VFX), animated videos & cartoon creations, all tailor-made to your specifications.
+            As one of the best animation companies in Singapore, our studio offers all kinds of professional services,
+            such as motion graphics, 2D and 3D animation, visual effects (VFX), animated videos & cartoon creations, all
+            tailor-made to your specifications.
           </p>
           <button class="btn bg-pink" id="btn4">WORK WITH US</button>
         </div>
       </div>
     </div>
-   </section>
+  </section>
   <!-- Collaborate section end -->
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iste, quidem eius dolores, qui voluptates accusamus repellendus ipsum autem officia velit iusto laborum tempora reprehenderit ullam, consequatur inventore nesciunt voluptatibus?
-   Itaque assumenda nam tempore saepe, sed fuga fugiat. Omnis explicabo at culpa non debitis, incidunt esse nulla quos in, molestias odit impedit, praesentium nam cumque cupiditate. Nulla alias consectetur sequi.
-   Autem, in pariatur atque officia eveniet, exercitationem ex quod quaerat voluptas natus doloremque maiores rerum ducimus dolor animi debitis harum, iste sit! Praesentium, distinctio veniam a adipisci suscipit sunt voluptates.
-   Aperiam maxime reprehenderit harum. Voluptatem temporibus suscipit accusantium iure minima quibusdam aut vitae veniam quaerat cumque, quisquam alias dolore nostrum soluta assumenda, blanditiis repellat laborum placeat? Consectetur similique recusandae dicta?
-   Harum placeat officia doloremque nostrum aperiam explicabo, in sed. Culpa modi iste, at ipsum magni magnam nobis iusto ipsam, placeat est consectetur numquam nam! Numquam possimus enim suscipit consequatur iste?
-   Exercitationem, ex autem unde vero et adipisci tenetur rem asperiores magnam quo enim maxime hic reprehenderit, expedita iusto commodi. Aut impedit quo in harum debitis totam est, quia veritatis dolorem.
-   Illum adipisci, facilis sequi voluptas quis veritatis quod, sed consectetur fugit, ipsa nostrum iste odit error nisi. Culpa aliquam laudantium dignissimos ut. Dicta explicabo aliquam facilis. Doloremque rerum non velit.
-   Pariatur similique eum ipsum impedit deserunt eveniet expedita quis iusto illum at iure, perspiciatis repellat nihil ducimus earum sunt aperiam alias ipsam minus natus eaque! Eveniet aspernatur repellendus labore placeat.
-   Maxime, reiciendis ratione. Illo quidem perferendis eaque explicabo tenetur repudiandae pariatur totam possimus aspernatur vitae nostrum delectus a deleniti quis omnis dicta suscipit eius, deserunt ad labore, facere iusto ea!
-   Ut veritatis natus molestias dolores recusandae beatae cum odio, ea ratione magni alias iste, adipisci labore. Perspiciatis animi excepturi doloremque cupiditate, quia ipsum voluptates sed accusamus eligendi mollitia. Aliquam, quo?
-   Odio libero sit nesciunt dolores debitis. Sunt aut nulla at quae necessitatibus earum, suscipit consequuntur ab aliquam amet laboriosam velit accusamus libero quas, atque reiciendis illo et soluta excepturi voluptatibus.
-   Iste nam similique, tenetur ut error doloremque temporibus adipisci. Nihil necessitatibus nulla, commodi numquam consequatur quibusdam saepe voluptatibus, assumenda expedita quo iste blanditiis. Exercitationem sunt perferendis amet? Nostrum, consequuntur fuga.
-   Commodi sed voluptatem incidunt quo a nisi, obcaecati odit? Consectetur consequatur iusto inventore quod eos aspernatur vel voluptate accusamus ab laborum, animi quam sit reprehenderit. Architecto incidunt hic fugit nisi.
-   Expedita magnam est laudantium accusamus exercitationem inventore dolorum quasi beatae vitae nobis iste repudiandae, tempore porro doloremque temporibus aut saepe! Possimus quisquam et commodi sit alias necessitatibus molestiae ipsum cumque.
-   Rem omnis ad ratione, deserunt vero labore incidunt mollitia animi velit debitis distinctio doloremque ipsum pariatur autem eaque atque. Expedita a maiores ipsa deleniti incidunt possimus, velit animi placeat quod.
-   Officia earum provident reprehenderit dicta eveniet quidem dignissimos. Ab vero neque numquam, cupiditate debitis iste ullam libero harum minima cum velit nulla architecto quae aliquid deserunt quo molestiae impedit. Velit.
-   Fugiat, repellat nobis autem perspiciatis totam fuga tempora incidunt adipisci. Provident modi tenetur, a, velit quo molestiae aliquam nemo neque, quae aperiam molestias ut autem! Est hic ea expedita fugit!
-   Illo, harum quasi. Quibusdam adipisci voluptas totam officiis vero libero molestias nihil error dolores, recusandae maiores voluptatibus eius eveniet, natus perferendis porro unde! Deleniti dolorem eligendi quidem ut repellendus autem.
-   Officiis deleniti, id aliquid reiciendis nostrum quis aut maxime adipisci numquam ipsam possimus, dignissimos quasi officia, tempora architecto consectetur labore. Voluptate dolore consequatur atque unde quo exercitationem distinctio provident architecto?
-   Illum iure similique ipsum ducimus iste culpa sequi voluptates id a quos eum aperiam sapiente, officiis soluta dolor temporibus, consectetur corporis! Deleniti possimus perferendis sunt nisi, fuga harum error quaerat.</p>
-<!--  -->
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iste, quidem eius dolores, qui voluptates accusamus
+    repellendus ipsum autem officia velit iusto laborum tempora reprehenderit ullam, consequatur inventore nesciunt
+    voluptatibus?
+    Itaque assumenda nam tempore saepe, sed fuga fugiat. Omnis explicabo at culpa non debitis, incidunt esse nulla quos
+    in, molestias odit impedit, praesentium nam cumque cupiditate. Nulla alias consectetur sequi.
+    Autem, in pariatur atque officia eveniet, exercitationem ex quod quaerat voluptas natus doloremque maiores rerum
+    ducimus dolor animi debitis harum, iste sit! Praesentium, distinctio veniam a adipisci suscipit sunt voluptates.
+    Aperiam maxime reprehenderit harum. Voluptatem temporibus suscipit accusantium iure minima quibusdam aut vitae
+    veniam quaerat cumque, quisquam alias dolore nostrum soluta assumenda, blanditiis repellat laborum placeat?
+    Consectetur similique recusandae dicta?
+    Harum placeat officia doloremque nostrum aperiam explicabo, in sed. Culpa modi iste, at ipsum magni magnam nobis
+    iusto ipsam, placeat est consectetur numquam nam! Numquam possimus enim suscipit consequatur iste?
+    Exercitationem, ex autem unde vero et adipisci tenetur rem asperiores magnam quo enim maxime hic reprehenderit,
+    expedita iusto commodi. Aut impedit quo in harum debitis totam est, quia veritatis dolorem.
+    Illum adipisci, facilis sequi voluptas quis veritatis quod, sed consectetur fugit, ipsa nostrum iste odit error
+    nisi. Culpa aliquam laudantium dignissimos ut. Dicta explicabo aliquam facilis. Doloremque rerum non velit.
+    Pariatur similique eum ipsum impedit deserunt eveniet expedita quis iusto illum at iure, perspiciatis repellat nihil
+    ducimus earum sunt aperiam alias ipsam minus natus eaque! Eveniet aspernatur repellendus labore placeat.
+    Maxime, reiciendis ratione. Illo quidem perferendis eaque explicabo tenetur repudiandae pariatur totam possimus
+    aspernatur vitae nostrum delectus a deleniti quis omnis dicta suscipit eius, deserunt ad labore, facere iusto ea!
+    Ut veritatis natus molestias dolores recusandae beatae cum odio, ea ratione magni alias iste, adipisci labore.
+    Perspiciatis animi excepturi doloremque cupiditate, quia ipsum voluptates sed accusamus eligendi mollitia. Aliquam,
+    quo?
+    Odio libero sit nesciunt dolores debitis. Sunt aut nulla at quae necessitatibus earum, suscipit consequuntur ab
+    aliquam amet laboriosam velit accusamus libero quas, atque reiciendis illo et soluta excepturi voluptatibus.
+    Iste nam similique, tenetur ut error doloremque temporibus adipisci. Nihil necessitatibus nulla, commodi numquam
+    consequatur quibusdam saepe voluptatibus, assumenda expedita quo iste blanditiis. Exercitationem sunt perferendis
+    amet? Nostrum, consequuntur fuga.
+    Commodi sed voluptatem incidunt quo a nisi, obcaecati odit? Consectetur consequatur iusto inventore quod eos
+    aspernatur vel voluptate accusamus ab laborum, animi quam sit reprehenderit. Architecto incidunt hic fugit nisi.
+    Expedita magnam est laudantium accusamus exercitationem inventore dolorum quasi beatae vitae nobis iste repudiandae,
+    tempore porro doloremque temporibus aut saepe! Possimus quisquam et commodi sit alias necessitatibus molestiae ipsum
+    cumque.
+    Rem omnis ad ratione, deserunt vero labore incidunt mollitia animi velit debitis distinctio doloremque ipsum
+    pariatur autem eaque atque. Expedita a maiores ipsa deleniti incidunt possimus, velit animi placeat quod.
+    Officia earum provident reprehenderit dicta eveniet quidem dignissimos. Ab vero neque numquam, cupiditate debitis
+    iste ullam libero harum minima cum velit nulla architecto quae aliquid deserunt quo molestiae impedit. Velit.
+    Fugiat, repellat nobis autem perspiciatis totam fuga tempora incidunt adipisci. Provident modi tenetur, a, velit quo
+    molestiae aliquam nemo neque, quae aperiam molestias ut autem! Est hic ea expedita fugit!
+    Illo, harum quasi. Quibusdam adipisci voluptas totam officiis vero libero molestias nihil error dolores, recusandae
+    maiores voluptatibus eius eveniet, natus perferendis porro unde! Deleniti dolorem eligendi quidem ut repellendus
+    autem.
+    Officiis deleniti, id aliquid reiciendis nostrum quis aut maxime adipisci numquam ipsam possimus, dignissimos quasi
+    officia, tempora architecto consectetur labore. Voluptate dolore consequatur atque unde quo exercitationem
+    distinctio provident architecto?
+    Illum iure similique ipsum ducimus iste culpa sequi voluptates id a quos eum aperiam sapiente, officiis soluta dolor
+    temporibus, consectetur corporis! Deleniti possimus perferendis sunt nisi, fuga harum error quaerat.</p>
+  <!--  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
     "></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>

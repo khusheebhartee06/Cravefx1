@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bg-pink {
+    background-color: #FF006F;
+}
+.bg-yellow{
+    background-color: #FFFF00;
+}
+.bg-blue {
+    background-color: #202EF7;
+}
+.bg-lightblue
+{
+    background-color: #0B75FF;
+}
+.text-pink{
+    color: #FF006F;
+}
+.text-blue{
+    color: #202EF7;
+}
+.h2 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.btn {
+    padding: 12px 40px;
+    font-weight: 500;
+    color: white;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+
+#btn1:hover {
+    transform: scale(1.1);
+    background-color: #FF006F;
+    color: white;
+}
+
+#btn2:hover {
+    transform: translateY(-10px);
+    background-color: #202EF7;
+    color: white;
+    box-shadow: 0px 10px 50px rgb(156, 155, 155);
+}
+#btn3:hover {
+    transform: translateY(-10px);
+    background-color: #0B75FF;
+    color: white;
+    box-shadow: 0px 10px 50px rgb(156, 155, 155);
+}
+#btn4:hover {
+    transform: translateY(-10px);
+    background-color: #FF006F;
+    color: white;
+    box-shadow: 0px 10px 50px rgb(156, 155, 155);
+}
+
+/* preloader section start */
+#preloader{
+    width: 100%;
+    height: 100vh;
+    background: #76d2f7 url(../img/preloader.gif) no-repeat ;
+    background-position: center;
+    z-index: 9999;
+    position: fixed;
+    background-size: 8%;
+}
+/* preloader section end */
+/* banner and navbar section start */
+#banner {
+    background: url(../img/about.jpg) no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+}
+/* nav */
+#banner .navbar {
+    transition: all 1s;
+}
+
+#banner .navbar-brand img {
+    transition: all 1s;
+}
+
+#banner ul li .nav-link {
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.scroll-down {
+    background-color: white;
+    padding: 0;
+}
+
+#banner .scroll-down ul li .nav-link {
+    color: black;
+}
+
+.scroll-down .navbar-brand img {
+    width: 80px;
+}
+
+/* nav */
